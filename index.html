@@ -49,7 +49,7 @@
       </div>
     </div>
           <script>
-      var iframe = document.getElementsById('iframe');
+      var iframe = document.getElementById('iframe');
 var url = iframe.src;
 var getData = function (data) {
     if (data && data.query && data.query.results && data.query.results.resources && data.query.results.resources.content && data.query.results.resources.status == 200) loadHTML(data.query.results.resources.content);
